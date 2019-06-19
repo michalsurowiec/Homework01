@@ -1,0 +1,13 @@
+CREATE SCHEMA `Homework` DEFAULT CHARACTER SET utf8 COLLATE utf8_polish_ci ;
+
+CREATE TABLE Newsletter
+(id INT AUTO_INCREMENT,
+name VARCHAR(50),
+email VARCHAR(50),
+PRIMARY KEY(id))
+
+CREATE TABLE GuestBook
+(id INT AUTO_INCREMENT,
+name VARCHAR(50),
+description VARCHAR(50),
+PRIMARY KEY(id))
